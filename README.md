@@ -1,2 +1,29 @@
 # CrossReference
-Open-source code for cross referencing
+
+Various open-source code for cross referencing, all under zlib license. 
+Code is only for cross referencing, and thus not in a very shippable state.
+
+=====================================================================================
+Copyright (c) 2015 Fan LiangDeng
+
+This software is provided 'as-is', without any express or implied
+warranty. In no event will the authors be held liable for any damages
+arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not
+   claim that you wrote the original software. If you use this software
+   in a product, an acknowledgement in the product documentation would be
+   appreciated but is not required.
+2. Altered source versions must be plainly marked as such, and must not be
+   misrepresented as being the original software.
+3. This notice may not be removed or altered from any source distribution.
+=====================================================================================
+
+1) cNavmesh.cpp/.h - Code for a navmesh made using constrained delaunay triangulation.
+Last Updated: 14/8/2015
+2) cPathfinder.cpp/.h - Code for triangular astar pathfinding on a navmesh, along with (stupid) funnel algorithm and path straightening algorithms.
+Last Updated: 14/8/2015
